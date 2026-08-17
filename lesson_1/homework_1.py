@@ -33,4 +33,29 @@ print(b)
 
 import keyword
 print(keyword.kwlist)
+# Переменные с именами зарезервированных слов нельзя использовать,
+# так как это нарушит логику Python.
+
+var1 = 42
+var2 = 3.14
+var3 = "Hello"
+print(type(var1), type(var2), type(var3))
+var1 = "42"
+print(type(var1))
+
+
+color = "black"
+цвет = "черный"
+P = 3.14
+some_number = 13
+favorite = 33
+print(color, type(color), цвет, type(цвет))
+print(P, type(P))
+print(some_number, type(some_number))
+print(favorite, type(favorite))
+# Кириллица работает, но Pycharm выдал не критическое предупреждение.
+# Видимо, это нарушение стандарта.
+
+
+
 
