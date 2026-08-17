@@ -3,4 +3,4 @@
 __pycache__/
 *.pyc
 .env
-common_comand.txt/
+common_comand.txt
