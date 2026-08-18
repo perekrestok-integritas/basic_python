@@ -1,5 +1,3 @@
-from lesson_2.lesson_2_2 import s3
-
 s1 = "string"
 print(34, s1)
 print(34, 157, "qwerty", s1)
